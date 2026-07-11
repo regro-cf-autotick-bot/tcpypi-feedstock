@@ -1,5 +1,5 @@
 {% set name = "tcpypi" %}
-{% set version = "1.4" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tcpypi-{{ version }}.tar.gz
-  sha256: 3691daed05a7d0c01ff365850feba87d8d0287ccbf4848126b72a99e93b61cf9
+  sha256: a210f757cb56636bca1877bbed0bc127f077d4f20014d933770c037c2fbdbb95
 
 build:
   noarch: python
